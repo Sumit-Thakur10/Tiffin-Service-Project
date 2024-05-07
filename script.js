@@ -42,7 +42,7 @@ function displayItems() {
 
     var itemPrice = document.createElement("p");
     itemPrice.setAttribute("id", "item-price");
-    itemPrice.innerText = "Price : $ " + item.price;
+    itemPrice.innerText = "Price : ₹ " + item.price;
 
     itemCard.appendChild(cardTop);
     itemCard.appendChild(img);
@@ -80,7 +80,7 @@ function displayItems() {
 
     var itemPrice = document.createElement("p");
     itemPrice.setAttribute("id", "item-price");
-    itemPrice.innerText = "Price : $ " + item.price;
+    itemPrice.innerText = "Price : ₹ " + item.price;
 
     itemCard.appendChild(cardTop);
     itemCard.appendChild(img);
@@ -118,7 +118,7 @@ function displayItems() {
 
     var itemPrice = document.createElement("p");
     itemPrice.setAttribute("id", "item-price");
-    itemPrice.innerText = "Price : $ " + item.price;
+    itemPrice.innerText = "Price : ₹ " + item.price;
 
     itemCard.appendChild(cardTop);
     itemCard.appendChild(img);
@@ -156,7 +156,7 @@ function displayItems() {
 
     var itemPrice = document.createElement("p");
     itemPrice.setAttribute("id", "item-price");
-    itemPrice.innerText = "Price : $ " + item.price;
+    itemPrice.innerText = "Price : ₹ " + item.price;
 
     itemCard.appendChild(cardTop);
     itemCard.appendChild(img);
@@ -194,7 +194,7 @@ function displayItems() {
 
     var itemPrice = document.createElement("p");
     itemPrice.setAttribute("id", "item-price");
-    itemPrice.innerText = "Price : $ " + item.price;
+    itemPrice.innerText = "Price : ₹ " + item.price;
 
     itemCard.appendChild(cardTop);
     itemCard.appendChild(img);
@@ -232,7 +232,7 @@ function displayItems() {
 
     var itemPrice = document.createElement("p");
     itemPrice.setAttribute("id", "item-price");
-    itemPrice.innerText = "Price : $ " + item.price;
+    itemPrice.innerText = "Price : ₹ " + item.price;
 
     itemCard.appendChild(cardTop);
     itemCard.appendChild(img);
@@ -403,9 +403,9 @@ function totalAmount() {
   });
   document.getElementById("total-item").innerText =
     "Total Item : " + cartData.length;
-  document.getElementById("total-price").innerText = "Total Price : $ " + sum;
+  document.getElementById("total-price").innerText = "Total Price : ₹ " + sum;
   document.getElementById("m-total-amount").innerText =
-    "Total Price : $ " + sum;
+    "Total Price : ₹ " + sum;
 }
 
 document.getElementById("cart-plus").addEventListener("click", cartToggle);
